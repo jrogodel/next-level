@@ -81,26 +81,60 @@ small,
 .font_small {
   font-size: 0.75em;
 }
-.banner-wrapper {
+.banner {
   background: #31323d;
   background-image: url("../images/bg-pattern.svg");
+  background-repeat: repeat;
 }
 .main-heading {
   font-family: 'Mada', sans-serif;
-  font-size: 3.946em;
+  font-size: 4.735em;
   font-weight: 900;
   text-transform: uppercase;
   color: #fbfbfc;
   line-height: 0.9;
   margin: 0;
-  padding: 80px 0 0 70px;
+  padding: 140px 0 0 80px;
 }
 .sub-heading {
   color: #e1e2e7;
-  font-size: 2.961em;
+  font-size: 3.553em;
   font-weight: 700;
   margin: 0;
-  padding: 0 0 90px 70px;
-  line-height: 0.5;
+  padding: 0 0 140px 80px;
+  line-height: 0.6;
   text-transform: uppercase;
+}
+.nav-wrapper {
+  background-color: #3a3b49;
+  padding: 30px 80px;
+}
+.nav-wrapper a,
+.nav-wrapper label {
+  color: #e1e2e7;
+  margin-right: 2.2em;
+  text-decoration: none;
+  font-size: 1.25em;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 30%;
+}
+.nav-wrapper label {
+  margin: 0 0 0 2px;
+  border-right: 1px solid #e1e2e7;
+  padding-right: 1.5em;
+}
+.nav-wrapper input[type="search"] {
+  color: #e1e2e7;
+  font-size: 1.25em;
+  font-weight: 400;
+  font-style: italic;
+  background: transparent;
+  outline: none;
+  border: none;
+  margin-left: 0.8em;
+  width: 60%;
+}
+.nav-wrapper a:hover {
+  color: highlight;
 }

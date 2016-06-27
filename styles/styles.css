@@ -101,13 +101,13 @@ small,
   font-size: 3.553em;
   font-weight: 700;
   margin: 0;
-  padding: 0 0 140px 80px;
+  padding: 0 0 150px 80px;
   line-height: 0.6;
   text-transform: uppercase;
 }
 .nav-wrapper {
   background-color: #3a3b49;
-  padding: 30px 80px;
+  padding: 25px 80px;
 }
 .nav-wrapper a,
 .nav-wrapper label {
@@ -137,4 +137,18 @@ small,
 }
 .nav-wrapper a:hover {
   color: highlight;
+}
+.resources {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.resources li {
+  margin-bottom: -5px;
+  width: 33.333%;
+  float: left;
+}
+.resources li img {
+  width: 100%;
+  max-width: 100%;
 }
